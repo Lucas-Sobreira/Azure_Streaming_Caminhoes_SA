@@ -14,6 +14,14 @@ O objetivo deste projeto é criar um pipeline de dados para a ingestão em tempo
 Os dados são fictícios, sendo originados de um Job em Python. 
 </p>
 
+### Requisito Funcional
+
+1) Criar um EventHub e o DataLake
+2) Testar o envio das informações para o EventHub e para o DataLake
+3) Criar o Azure Stream Analytics para analisar os dados do EventHub
+4) Construir o App do Caminhoes SA
+5) Testar a solução completa e conectar ao Power BI
+
 ## Arquitetura
 
 <p align="justify">
